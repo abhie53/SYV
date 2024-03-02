@@ -5,7 +5,7 @@ import img4 from "../images/services/img4.webp";
 import img5 from "../images/services/img5.webp";
 import img6 from "../images/services/img6.webp";
 
-export const MenuList = [
+export const ServiceList = [
   {
     name: "Tailored Clinical Devlopment",
     description:

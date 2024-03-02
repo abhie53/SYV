@@ -1,5 +1,5 @@
 import React from "react";
-import { MenuList } from "../data/data";
+import { ServiceList } from "../data/data";
 import Layout from "./../components/Layout/Layout";
 import {
   Box,
@@ -10,11 +10,11 @@ import {
   Typography,
 } from "@mui/material";
 
-const Menu = () => {
+const Services = () => {
   return (
     <Layout>
       <Box sx={{ display: "flex", flexWrap: "wrap", justifyContent: "center" }}>
-        {MenuList.map((menu) => (
+        {ServiceList.map((menu) => (
           <Card sx={{ maxWidth: "390px", display: "flex", m: 2 }}>
             <CardActionArea>
               <CardMedia
@@ -37,4 +37,4 @@ const Menu = () => {
   );
 };
 
-export default Menu;
+export default Services;
