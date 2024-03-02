@@ -1,51 +1,51 @@
-import Dosa from "../images/dosa.jpg";
-import Chola from "../images/chhola.jpg";
-import Idli from "../images/idli.jpg";
-import MasalaDosa from "../images/masala.jpg";
-import Paneer from "../images/paneer.jpg";
-import Gujrati from "../images/gujrati.jpeg";
+import img1 from "../images/services/img1.webp";
+import img2 from "../images/services/img2.webp";
+import img3 from "../images/services/img3.webp";
+import img4 from "../images/services/img4.webp";
+import img5 from "../images/services/img5.webp";
+import img6 from "../images/services/img6.webp";
 
 export const MenuList = [
   {
-    name: "Dosa",
+    name: "Tailored Clinical Devlopment",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
-    image: Dosa,
+    image: img1,
     price: 200,
   },
   {
-    name: "Chola",
+    name: "Therapeutics",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
-    image: Chola,
+    image: img2,
     price: 250,
   },
   {
-    name: "Idli Sambhar",
+    name: "Consulting and advisory services",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
-    image: Idli,
+    image: img3,
     price: 300,
   },
   {
-    name: "Masala Dosa",
+    name: "ICON and You",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
-    image: MasalaDosa,
+    image: img4,
     price: 100,
   },
   {
-    name: "Paneer",
+    name: "Healthcare intelligence",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
-    image: Paneer,
+    image: img5,
     price: 400,
   },
   {
-    name: "Gujrati",
+    name: "Externalised development for biotechnology companies",
     description:
       "Lorem ipsum dolor sit, amet consectetur adipisicing elit. Placeat, ab!",
-    image: Gujrati,
+    image: img6,
     price: 500,
   },
 ];
