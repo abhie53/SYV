@@ -54,7 +54,6 @@ const Contact = () => {
               <TableRow>
                 <TableCell>
                   <SupportAgentIcon sx={{ color: "red", pt: 1 }} /> 7218980456
-                  (tollfree)
                 </TableCell>
               </TableRow>
               <TableRow>
@@ -69,7 +68,7 @@ const Contact = () => {
               </TableRow>
               <tablerow>
                 <tagblecell>
-                  <AddLocationIcon sx={{ color: "black", pt: 1 }}/> ttttttttttttfhfshuwr6rae
+                  <AddLocationIcon sx={{ color: "black", pt: 1 }}/> Hingane Khurd, Pune.
                 </tagblecell>
               </tablerow>
             </TableBody>
