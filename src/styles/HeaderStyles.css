@@ -12,10 +12,10 @@
   color: white;
 }
 .active {
-  color: goldenrod !important;
-  font-weight: bold !important;
+  color: goldenrod;
+  font-weight: bold ;
 }
-/* mobile view */
+
 .mobile-navigation {
   list-style: none;
 }
