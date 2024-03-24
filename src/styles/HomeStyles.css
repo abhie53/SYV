@@ -19,8 +19,18 @@
 .headerContainer2 {
   display: flex;
   width: auto;
-  margin-left: 30px;
+  height: auto;
+  margin: 40px;
   color:'white'
+}
+.headerContainer2 .child{
+  margin: 10px;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+  flex-direction: column;
+  
 }
 
 .homeContent{
@@ -48,11 +58,11 @@
   font-weight: lighter;
   color: #333;
 }
-
-.headerContainer, .headerContainer2 button {
-  background-color: #1c71b2;
+/* .headerContainer, .headerContainer2 button */
+button {
+  background-color: #ce702c;
   margin-top: 40px;
-  margin-left: 40px;
+  margin-left: 30px;
   border: none;
   border-radius: 5px;
   cursor: pointer;
@@ -62,12 +72,32 @@
   color: white;
   font-size: 20px;
 }
-
-.headerContainer, .headerContainer2 button:hover {
+/* .headerContainer, .headerContainer2 button:hover */
+.headerContainerbutton:hover {
   background-color: #07090a;
   cursor: pointer;
   transition: 0.3s ease-in;
 }
+
+.findMoreContainer{
+  margin: 5px;
+  height: auto;
+  display: flex;
+  justify-content: center;
+  align-items: left;
+}
+
+.findMoreContainer button{
+  margin-top: 20px;
+  margin-left: 10px;
+  border-radius: 5px;
+  height: 40px;
+  width: 150px;
+  color: white;
+  font-size: 17px;
+}
+
+
 
 
 
