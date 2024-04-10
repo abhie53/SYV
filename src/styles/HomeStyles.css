@@ -13,7 +13,7 @@
 .headerContainer {
   width: auto;
   margin-left: 30px;
-  color:'white'
+  color: white;
 }
 
 .headerContainer2 {
@@ -80,6 +80,11 @@ button {
 }
 
 .findMoreContainer{
+  display: grid;
+  justify-content: space-around;
+  grid-template-columns: 50px 50px 50px;
+  gap: 10vh;
+  padding: 10px;
   margin: 5px;
   height: auto;
   display: flex;
@@ -95,6 +100,10 @@ button {
   width: 150px;
   color: white;
   font-size: 17px;
+}
+
+.findMoreContainer .moreChild p{
+  text-wrap: wrap;
 }
 
 

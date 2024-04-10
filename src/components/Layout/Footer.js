@@ -1,14 +1,38 @@
+// import React from 'react';
+// import InstagramIcon from "@mui/icons-material/Instagram";
+// import TwitterIcon from "@mui/icons-material/Twitter";
+// import YouTubeIcon from "@mui/icons-material/YouTube";
+// // import { Box, Typography } from "@mui/material";
+// function Footer() {
+//     return (
+//         <footer className="bg-dark text-white py-4">
+//             <div className="container">
+//                 <div className="row">
+//                     <div className="col-lg-12 text-center">
+//                     <h4>SYV Biotech Private Limited</h4>
+//                     <InstagramIcon />
+//                     <TwitterIcon />
+//                     <YouTubeIcon />
+//                     © {new Date().getFullYear()} SYV Biotech Private Limited. All rights reserved.
+//                     </div>
+//                 </div>
+//             </div>
+//         </footer>
+//     );
+// }
+
+// export default Footer;
+
 import React from "react";
 import InstagramIcon from "@mui/icons-material/Instagram";
 import TwitterIcon from "@mui/icons-material/Twitter";
-import GitHubIcon from "@mui/icons-material/GitHub";
 import YouTubeIcon from "@mui/icons-material/YouTube";
 import { Box, Typography } from "@mui/material";
 const Footer = () => {
   return (
     <>
       <Box
-        sx={{ textAlign: "center", bgcolor: "#1A1A19", color: "white", p: 3 }}
+        sx={{ textAlign: "center", bgcolor: "#707476", color: "white", p: 3 }}
       >
         <Box
           sx={{
@@ -25,10 +49,10 @@ const Footer = () => {
             },
           }}
         >
-          {/* icons */}
+       
+          <h4>SYV Biotech Private Limited</h4>
           <InstagramIcon />
           <TwitterIcon />
-          <GitHubIcon />
           <YouTubeIcon />
         </Box>
         <Typography
@@ -39,6 +63,7 @@ const Footer = () => {
             },
           }}
         >
+          © {new Date().getFullYear()} SYV Biotech Private Limited. All rights reserved.
         </Typography>
       </Box>
     </>

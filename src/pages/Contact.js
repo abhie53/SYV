@@ -1,6 +1,5 @@
 import React from "react";
 import Layout from "./../components/Layout/Layout";
-import SupportAgentIcon from "@mui/icons-material/SupportAgent";
 import MailIcon from "@mui/icons-material/Mail";
 import CallIcon from "@mui/icons-material/Call";
 import AddLocationIcon from '@mui/icons-material/AddLocation';
@@ -53,7 +52,7 @@ const Contact = () => {
             <TableBody>
               <TableRow>
                 <TableCell>
-                  <SupportAgentIcon sx={{ color: "red", pt: 1 }} /> 7218980456
+                <AddLocationIcon sx={{ color: "black", pt: 1 }}/> Hingane Khurd, Pune.
                 </TableCell>
               </TableRow>
               <TableRow>
@@ -66,11 +65,6 @@ const Contact = () => {
                   <CallIcon sx={{ color: "green", pt: 1 }} /> 7218980456
                 </TableCell>
               </TableRow>
-              <tablerow>
-                <tagblecell>
-                  <AddLocationIcon sx={{ color: "black", pt: 1 }}/> Hingane Khurd, Pune.
-                </tagblecell>
-              </tablerow>
             </TableBody>
           </Table>
         </TableContainer>
